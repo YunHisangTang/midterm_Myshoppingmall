@@ -53,6 +53,6 @@
      *  shop(商品頁面、結帳、購物車部分)
      *  user(User的登入和註冊部分)
      *  error.hbs (錯誤顯示部分)
-   * app.js(後端所需模組)
+   * app.js(後端所需模組:Bcrypt:拿來做密碼的hashing; Mongoose:連接MongoDB資料庫等)
    * package-lock.json
    * package.json
