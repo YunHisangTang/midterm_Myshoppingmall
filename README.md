@@ -7,6 +7,7 @@
 2. 一句話描述這個 project 在做什麼 : 簡化版的購物網站
 
 3. 使用/操作方式 :
+
 > 到下載的資料夾下:
 > npm install 
 > npm start
