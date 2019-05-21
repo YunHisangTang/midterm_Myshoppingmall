@@ -1,6 +1,7 @@
 # midterm_Myshoppingmall
-
+作者: 湯昀翔 r07631005
 1. 題目名稱 :  midterm_Myshoppingmall
+
 [https://github.com/YunHisangTang/midterm_Myshoppingmall](https://github.com/YunHisangTang/midterm_Myshoppingmall)
 
 2. 一句話描述這個 project 在做什麼 : 簡化版的購物網站
