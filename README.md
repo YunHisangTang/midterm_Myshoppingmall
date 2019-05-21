@@ -1,4 +1,5 @@
 # midterm_Myshoppingmall
+
 1. 題目名稱 :  midterm_Myshoppingmall
 [https://github.com/YunHisangTang/midterm_Myshoppingmall](https://github.com/YunHisangTang/midterm_Myshoppingmall)
 
@@ -26,3 +27,30 @@
 7. 心得 :
 	原本想要再加入老師上課教的聊天室，但卡在Stripe金流的部分，就沒繼續寫上。
 	
+8. 架構:
+
+* 20190521_v1 :
+   * bin
+   * config : 
+      * passport.js (User的登入和註冊，E-mail需正確格式、密碼需4位)
+   * models : 
+      * cart.js (進行購物車內的金額計算)
+      * product.js (上傳到mongoDB.Atlas的商品模板)
+      * user.js (上傳到mongoDB.Atlas的User的模板)
+   * public
+	  * javascripts/checkout.js (連動Stripe帳戶進行商品的付款(尚未成功))，目前開放輸入任何資料都能結帳完成。)
+	  * stylesheets/style.css	
+   * routes
+     * index.js(router做甚麼動作都寫在這)
+     * user.js(router做User的登入和註冊動作都寫在這)
+   * seed
+     *  product-seeder.js(上架商品目錄，用node product-seeder.js就能將商品放到mongoDB中)
+   * views (前端)
+     *  layout (整體網頁框架)
+     *  partials (最上面的目錄Bar部分)
+     *  shop(商品頁面、結帳、購物車部分)
+     *  user(User的登入和註冊部分)
+     *  error.hbs (錯誤顯示部分)
+   * app.js(後端所需模組)
+   * package-lock.json
+   * package.json
